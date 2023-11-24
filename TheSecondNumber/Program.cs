@@ -1,8 +1,8 @@
-﻿using System;
+using System;
 
 Console.Write("Введите целое число: ");
-int number = int.Parse(Console.ReadLine());
+int x = int.Parse(Console.ReadLine());
 
-int n = (number / 10) % 10;
+int n = (x / 10) % 10;
 
-Console.WriteLine($"Вторая цифра числа: {n}");
+Console.WriteLine($"Вторая цифра числа(Десяток): {n}");
